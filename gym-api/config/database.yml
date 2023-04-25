@@ -89,6 +89,4 @@ test:
 #
 production:
   <<: *default
-  database: gym_api_production
-  username: gym_api
-  password: <%= ENV["GYM_API_DATABASE_PASSWORD"] %>
+  url: <%= ENV['DATABASE_URL'] %>
