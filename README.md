@@ -15,3 +15,4 @@
 - Backend API in Ruby on Rails
 - Devise / Devise Token Auth
 - Metrics and Analytics
+- Deployed on Render (https://dashboard.render.com/)
